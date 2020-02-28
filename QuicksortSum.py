@@ -25,7 +25,7 @@ def findSum(arr, target):
   print(arr[low], arr[high])
   for i in range(len(arr)):
     if arr[low] == arr[high]:
-      return False
+      pass
     elif arr[low] + arr[high] == target:
       return arr[low], arr[high]
     elif arr[low] + arr[high] < target:
